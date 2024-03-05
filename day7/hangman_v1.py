@@ -8,7 +8,7 @@ chosen_word = random.choice(word_list)
 
 #TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
 
-guess = input(str(f"Select a letter: ")).lower()
+guess = input("Select a letter: ").lower()
 
 #TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
 
